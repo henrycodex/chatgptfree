@@ -34,11 +34,11 @@ def chatgpt_clone(input, history):
 
 # Streamlit App
 st.set_page_config(
-    page_title="Streamlit Chat - Demo",
+    page_title="ChatGPT Free Mode",
     page_icon=":robot:"
 )
 
-st.header("ChatGPT Clone with Streamlit")
+st.header("ChatGPT with NO Limits or Content Filters")
 
 history_input = []
 
