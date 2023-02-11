@@ -9,7 +9,7 @@ openai.api_key = open_api_key
 def openai_create(prompt):
 
     response = openai.Completion.create(
-    model="text-davinci-003",
+    model="chatbot-v1",
     prompt=prompt,
     temperature=0.9,
     max_tokens=150,
