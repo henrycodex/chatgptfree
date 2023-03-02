@@ -9,7 +9,7 @@ openai.api_key = open_api_key
 def openai_create(prompt):
 
     response = openai.Completion.create(
-    model="chatbot-v1",
+    model="gpt-3.5-turbo",
     prompt=prompt,
     temperature=0.9,
     max_tokens=150,
@@ -34,11 +34,11 @@ def chatgpt_clone(input, history):
 
 # Streamlit App
 st.set_page_config(
-    page_title="ChatGPT Free Mode",
+    page_title="Streamlit Chat - Demo",
     page_icon=":robot:"
 )
 
-st.header("ChatGPT with NO Limits or Content Filters")
+st.header("ChatGPT Clone with Streamlit")
 
 history_input = []
 
